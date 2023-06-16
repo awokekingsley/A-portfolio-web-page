@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    justify-content: space-between;
+}
+
+nav {
+    width: 100%;
+    line-height: 75px;
+    padding: 0 50px;
+}
+
+nav .logo p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: linear-gradient(90deg, #FE572E 0%, #FF4C80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: #261F22;
+}
+
+nav ul li a:hover {
+    background: linear-gradient(90deg, #FE572E 0%, #FF4C80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all 0.4s ease 0s;
+}
+
+.hero {
+    text-align: center;
+    font-family: 'Brandon Grotesque';
+    letter-spacing: -3%;
+    padding-top: 171px;
+  }
+
+.hero h3 {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 75px;
+    letter-spacing: -3%;
+    text-align: center;
+    font-size: 60px;
+    background: linear-gradient(90deg, #FE572E 0%, #FF4C80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero h1 {
+    font-size: 450;
+    font-size: 90px;
+    line-height: 108px;
+}
+
+.hero p {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 22.5px;
+}
+
+#myBtn {
+    width: 133.5px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 48px;
+    margin-bottom: 170px;
+    background: linear-gradient(90deg, #FE572E 0%, #FF4C80 100%);
+    box-shadow: 0px 100px 80px rgba(38, 31, 34, 0.0167767), 0px 50.0488px 40.0391px rgba(38, 31, 34, 0.0243888), 0px 30.1471px 24.1177px rgba(38, 31, 34, 0.0300374), 0px 19.3198px 15.4559px rgba(38, 31, 34, 0.035), 0px 12.5216px 10.0172px rgba(38, 31, 34, 0.0399626), 0px 7.88218px 6.30574px rgba(38, 31, 34, 0.0456112), 0px 4.5288px 3.62304px rgba(38, 31, 34, 0.0532233), 0px 1.99324px 1.59459px rgba(38, 31, 34, 0.07);
+}
+
+#myBtn a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 18px, 30px, 18px, 30px;
+    gap: 12px;
+}
+
+footer {
+    background: #261F22;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
